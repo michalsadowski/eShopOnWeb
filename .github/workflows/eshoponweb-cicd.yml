@@ -7,7 +7,7 @@ on: [push, workflow_dispatch]
 
 env:
   RESOURCE-GROUP: rg-eshoponweb-MS
-  LOCATION: northeuropw
+  LOCATION: northeurope
   TEMPLATE-FILE: infra/webapp.bicep
   SUBSCRIPTION-ID: 52d1b702-f561-4479-bdb4-77f9f9f97925
   WEBAPP-NAME: eshoponweb-webapp-MS
